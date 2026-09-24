@@ -1,0 +1,154 @@
+{
+  "meta": {
+    "title": "Taiwan Local Host｜台灣在地達人一日遊 & AI 智慧行程規劃",
+    "description": "跳脫制式觀光路線，體驗最道地的台灣——由在地達人帶領的茶文化、隱藏版老宅與私房山林步道深度旅程，並由 AI 在數秒內為您量身打造專屬行程。"
+  },
+  "header": {
+    "brand": "Taiwan Local Host",
+    "nav": {
+      "experiences": "體驗行程",
+      "aiTripBuilder": "AI 行程規劃",
+      "ourHosts": "在地達人",
+      "journal": "旅遊誌"
+    },
+    "cta": "立即規劃行程",
+    "menuAriaLabel": "開啟選單"
+  },
+  "hero": {
+    "badge": "在地達人 · AI 智慧管家",
+    "headingLine1": "跳脫制式觀光路線，",
+    "headingLine2Prefix": "體驗",
+    "headingLine2Highlight": "最道地的台灣。",
+    "subtext": "深入台灣高山茶園、隱藏版老宅與地圖上找不到的秘境步道——由在地達人精心策劃的私人一日遊，並由 AI 在數秒內為您量身打造專屬行程。",
+    "ctaExplore": "探索一日遊行程",
+    "ctaBuild": "讓 AI 為我規劃行程",
+    "trustStats": [
+      { "value": "4.97", "label": "平均嚮導評分" },
+      { "value": "1,200+", "label": "服務旅客人次" },
+      { "value": "100%", "label": "在地專業嚮導" }
+    ]
+  },
+  "featuredTours": {
+    "kicker": "在地達人精選",
+    "heading": "旗艦一日遊行程",
+    "subheading": "三段深入台灣秘境的招牌行程——每一段都由親身參與其中故事的在地達人親自帶領。"
+  },
+  "tourCard": {
+    "perPerson": "每人費用",
+    "viewItinerary": "查看行程",
+    "hostBadge": ""
+  },
+  "aiTripBuilder": {
+    "kicker": "AI 行程規劃",
+    "heading": "打造專屬您的一日行程",
+    "subheading": "告訴我們您的旅遊偏好，幾秒內為您配對最合適的一日遊行程。",
+    "partySize": {
+      "label": "同行夥伴",
+      "options": {
+        "solo": "單獨旅行",
+        "couple": "兩人同行",
+        "family": "親子家庭"
+      }
+    },
+    "interests": {
+      "label": "您感興趣的主題",
+      "helper": "可複選",
+      "options": {
+        "tea": "茶文化與山林美學",
+        "heritage": "老街與歷史建築",
+        "nature": "自然健行與瀑布"
+      }
+    },
+    "pace": {
+      "label": "旅遊步調",
+      "options": {
+        "easy": "步調輕鬆",
+        "moderate": "步調適中",
+        "active": "步調活躍"
+      }
+    },
+    "specialNeeds": {
+      "label": "特殊需求",
+      "options": {
+        "accessible": "需要無障礙設施",
+        "vegetarian": "需要素食餐點"
+      }
+    },
+    "notes": {
+      "label": "還有什麼想告訴我們的嗎？",
+      "placeholder": "例如：與長輩同行、食物過敏、偏好出發時間⋯"
+    },
+    "submit": "讓 AI 為我規劃行程",
+    "validation": "請選擇同行夥伴並至少勾選一項興趣主題以繼續。",
+    "loading": "正在為您打造專屬行程...",
+    "loadingSteps": [
+      "正在了解您的偏好...",
+      "正在規劃最佳在地路線...",
+      "正在配對在地達人...",
+      "正在撰寫您的專屬行程..."
+    ],
+    "errorGeneric": "生成行程時發生錯誤，請再試一次。",
+    "resultKicker": "AI 為您打造的一天",
+    "periods": {
+      "morning": "上午",
+      "afternoon": "下午",
+      "evening": "晚上"
+    },
+    "startOver": "重新規劃行程",
+    "contactCta": "聯繫在地達人",
+    "bookingForm": {
+      "kicker": "確認預訂",
+      "heading": "準備好出發了嗎？",
+      "subheading": "留下您的姓名、Email 與希望出發日期，其餘交給我們。",
+      "nameLabel": "姓名",
+      "namePlaceholder": "王小明",
+      "emailLabel": "電子郵件",
+      "emailPlaceholder": "you@example.com",
+      "tourDateLabel": "希望出發日期",
+      "submit": "確認預訂",
+      "submitting": "傳送中...",
+      "successTitle": "預訂請求已送出！",
+      "successMessage": "確認信已寄至 {email}。我們的專屬顧問將於 24 小時內與您聯繫確認細節。",
+      "errorGeneric": "送出預訂時發生錯誤，請再試一次。",
+      "validationError": "請填寫姓名、Email 與希望出發日期。"
+    }
+  },
+  "footer": {
+    "blurb": "由在地達人帶領的小團一日遊，搭配 AI 智慧管家，數秒內為您打造專屬完美行程。",
+    "columns": {
+      "explore": {
+        "heading": "探索",
+        "links": {
+          "teaCulture": "茶文化行程",
+          "heritage": "老街人文行程",
+          "nature": "自然山林健行",
+          "aiTripBuilder": "AI 行程規劃"
+        }
+      },
+      "company": {
+        "heading": "關於我們",
+        "links": {
+          "ourHosts": "在地達人",
+          "journal": "旅遊誌",
+          "becomeHost": "成為達人夥伴",
+          "contact": "聯絡我們"
+        }
+      },
+      "support": {
+        "heading": "支援服務",
+        "links": {
+          "bookingPolicy": "預訂須知",
+          "cancellations": "取消政策",
+          "faq": "常見問題",
+          "travelAdvisory": "旅遊安全資訊"
+        }
+      }
+    },
+    "copyright": "Taiwan Local Host 版權所有。",
+    "location": "台灣台北 · Stripe 安全刷卡結帳"
+  },
+  "languageSwitcher": {
+    "en": "EN",
+    "zh": "中文"
+  }
+}

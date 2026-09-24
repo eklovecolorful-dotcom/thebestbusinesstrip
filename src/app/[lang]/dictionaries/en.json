@@ -1,0 +1,154 @@
+{
+  "meta": {
+    "title": "Taiwan Local Host | Bespoke Day Tours & AI Trip Concierge",
+    "description": "Skip the tourist traps. Experience the real Taiwan with English-speaking local experts — tea culture, hidden heritage houses, and private mountain trails, custom-built by AI in seconds."
+  },
+  "header": {
+    "brand": "Taiwan Local Host",
+    "nav": {
+      "experiences": "Experiences",
+      "aiTripBuilder": "AI Trip Builder",
+      "ourHosts": "Our Hosts",
+      "journal": "Journal"
+    },
+    "cta": "Plan My Trip",
+    "menuAriaLabel": "Open menu"
+  },
+  "hero": {
+    "badge": "Local Host · AI Concierge",
+    "headingLine1": "Skip the tourist traps.",
+    "headingLine2Prefix": "Experience the",
+    "headingLine2Highlight": "real Taiwan.",
+    "subtext": "Private, English-guided day tours into Taiwan's high-mountain tea gardens, hidden heritage houses, and off-map trails — curated by local hosts, and custom-built for you by AI in seconds.",
+    "ctaExplore": "Explore Day Tours",
+    "ctaBuild": "Build My Trip with AI",
+    "trustStats": [
+      { "value": "4.97", "label": "average host rating" },
+      { "value": "1,200+", "label": "travelers hosted" },
+      { "value": "100%", "label": "fluent-English hosts" }
+    ]
+  },
+  "featuredTours": {
+    "kicker": "Curated by Local Hosts",
+    "heading": "Flagship day tours",
+    "subheading": "Three signature journeys into the Taiwan most visitors never see — each led by a fluent-English local host who lives the story they're sharing."
+  },
+  "tourCard": {
+    "perPerson": "Per person",
+    "viewItinerary": "View Itinerary",
+    "hostBadge": "Fluent English"
+  },
+  "aiTripBuilder": {
+    "kicker": "AI Trip Builder",
+    "heading": "Build your custom day trip",
+    "subheading": "Tell us a little about your trip, and we'll match you with the ideal day tour in seconds.",
+    "partySize": {
+      "label": "Who's traveling?",
+      "options": {
+        "solo": "Solo Traveler",
+        "couple": "Couple",
+        "family": "Family with Kids"
+      }
+    },
+    "interests": {
+      "label": "What draws you in?",
+      "helper": "Select all that apply",
+      "options": {
+        "tea": "Tea Culture & Mountain Aesthetics",
+        "heritage": "Old Street & Historical Architecture",
+        "nature": "Nature Hiking & Waterfalls"
+      }
+    },
+    "pace": {
+      "label": "Pace",
+      "options": {
+        "easy": "Easy pace",
+        "moderate": "Moderate pace",
+        "active": "Active pace"
+      }
+    },
+    "specialNeeds": {
+      "label": "Special requirements",
+      "options": {
+        "accessible": "Wheelchair / mobility accessible",
+        "vegetarian": "Vegetarian meals"
+      }
+    },
+    "notes": {
+      "label": "Anything else we should know?",
+      "placeholder": "e.g. traveling with elderly parents, food allergies, preferred start time..."
+    },
+    "submit": "Build My Trip with AI",
+    "validation": "Please select who's traveling and at least one interest to continue.",
+    "loading": "Crafting your custom itinerary...",
+    "loadingSteps": [
+      "Reading your preferences...",
+      "Mapping the best local routes...",
+      "Matching you with local hosts...",
+      "Writing your custom itinerary..."
+    ],
+    "errorGeneric": "Something went wrong generating your itinerary. Please try again.",
+    "resultKicker": "Your AI-crafted day",
+    "periods": {
+      "morning": "Morning",
+      "afternoon": "Afternoon",
+      "evening": "Evening"
+    },
+    "startOver": "Plan Another Day",
+    "contactCta": "Talk to a Local Host",
+    "bookingForm": {
+      "kicker": "Confirm & Book",
+      "heading": "Ready to make it happen?",
+      "subheading": "Tell us your name, email, and preferred date — we'll take it from here.",
+      "nameLabel": "Full name",
+      "namePlaceholder": "Jane Doe",
+      "emailLabel": "Email",
+      "emailPlaceholder": "jane@example.com",
+      "tourDateLabel": "Preferred tour date",
+      "submit": "Confirm & Book",
+      "submitting": "Sending your request...",
+      "successTitle": "Booking request received!",
+      "successMessage": "We've emailed a confirmation to {email}. Our concierge team will reach out within 24 hours to finalize the details.",
+      "errorGeneric": "Something went wrong submitting your booking. Please try again.",
+      "validationError": "Please fill in your name, email, and preferred date."
+    }
+  },
+  "footer": {
+    "blurb": "Small-group day tours led by fluent-English local experts, plus an AI concierge that builds your perfect itinerary in seconds.",
+    "columns": {
+      "explore": {
+        "heading": "Explore",
+        "links": {
+          "teaCulture": "Tea Culture Tours",
+          "heritage": "Heritage & Old Streets",
+          "nature": "Nature & Hiking",
+          "aiTripBuilder": "AI Trip Builder"
+        }
+      },
+      "company": {
+        "heading": "Company",
+        "links": {
+          "ourHosts": "Our Hosts",
+          "journal": "The Journal",
+          "becomeHost": "Become a Host",
+          "contact": "Contact Us"
+        }
+      },
+      "support": {
+        "heading": "Support",
+        "links": {
+          "bookingPolicy": "Booking Policy",
+          "cancellations": "Cancellations",
+          "faq": "FAQ",
+          "travelAdvisory": "Travel Advisory"
+        }
+      }
+    },
+    "copyright": "Taiwan Local Host. All rights reserved.",
+    "location": "Taipei, Taiwan · Secure checkout with Stripe"
+  },
+  "languageSwitcher": {
+    "en": "EN",
+    "zh": "中文"
+  }
+}
