@@ -38,6 +38,20 @@
     "viewItinerary": "View Itinerary",
     "hostBadge": "Fluent English"
   },
+  "tourBooking": {
+    "modalHeading": "Reserve Your Spot",
+    "priceLabel": "Total price",
+    "nameLabel": "Full name",
+    "namePlaceholder": "Jane Doe",
+    "emailLabel": "Email",
+    "emailPlaceholder": "jane@example.com",
+    "tourDateLabel": "Preferred tour date",
+    "submit": "Continue to Payment",
+    "submitting": "Redirecting to payment...",
+    "close": "Close",
+    "validationError": "Please fill in your name, email, and preferred date.",
+    "errorGeneric": "Something went wrong. Please try again."
+  },
   "aiTripBuilder": {
     "kicker": "AI Trip Builder",
     "heading": "Build your custom day trip",
@@ -112,6 +126,10 @@
       "errorGeneric": "Something went wrong submitting your booking. Please try again.",
       "validationError": "Please fill in your name, email, and preferred date."
     }
+  },
+  "paymentStatus": {
+    "success": "Payment received — thank you! We'll be in touch shortly to confirm your booking.",
+    "cancelled": "Payment was cancelled. No charge was made."
   },
   "footer": {
     "blurb": "Small-group day tours led by fluent-English local experts, plus an AI concierge that builds your perfect itinerary in seconds.",

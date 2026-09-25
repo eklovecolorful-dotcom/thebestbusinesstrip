@@ -38,6 +38,20 @@
     "viewItinerary": "查看行程",
     "hostBadge": ""
   },
+  "tourBooking": {
+    "modalHeading": "預訂此行程",
+    "priceLabel": "行程總價",
+    "nameLabel": "姓名",
+    "namePlaceholder": "王小明",
+    "emailLabel": "電子郵件",
+    "emailPlaceholder": "you@example.com",
+    "tourDateLabel": "希望出發日期",
+    "submit": "前往付款",
+    "submitting": "正在導向付款頁面...",
+    "close": "關閉",
+    "validationError": "請填寫姓名、Email 與希望出發日期。",
+    "errorGeneric": "發生錯誤，請再試一次。"
+  },
   "aiTripBuilder": {
     "kicker": "AI 行程規劃",
     "heading": "打造專屬您的一日行程",
@@ -112,6 +126,10 @@
       "errorGeneric": "送出預訂時發生錯誤，請再試一次。",
       "validationError": "請填寫姓名、Email 與希望出發日期。"
     }
+  },
+  "paymentStatus": {
+    "success": "付款成功，感謝您！我們將盡快與您聯繫確認訂單細節。",
+    "cancelled": "付款已取消，未產生任何扣款。"
   },
   "footer": {
     "blurb": "由在地達人帶領的小團一日遊，搭配 AI 智慧管家，數秒內為您打造專屬完美行程。",

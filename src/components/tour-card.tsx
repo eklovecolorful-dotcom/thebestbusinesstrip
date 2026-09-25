@@ -1,8 +1,8 @@
-import Link from "next/link";
 import { lang } from "next/root-params";
 import type { Tour, TourTheme } from "@/lib/tours";
 import { getDictionary, hasLocale } from "@/app/[lang]/dictionaries";
 import { notFound } from "next/navigation";
+import TourBookingTrigger from "@/components/tour-booking-trigger";
 
 const THEME_STYLES: Record<
   TourTheme,
@@ -138,21 +138,14 @@ export default async function TourCard({ tour }: { tour: Tour }) {
               {tour.price}
             </p>
           </div>
-          <Link
-            href={`/${currentLang}/tours/${tour.slug}`}
-            className="inline-flex items-center gap-1.5 rounded-full bg-forest px-5 py-2.5 text-sm font-medium text-cream transition-colors group-hover:bg-forest-dark"
-          >
-            {dict.tourCard.viewItinerary}
-            <svg width="13" height="13" viewBox="0 0 14 14" fill="none" aria-hidden="true">
-              <path
-                d="M2 7h10M8 3l4 4-4 4"
-                stroke="currentColor"
-                strokeWidth="1.5"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              />
-            </svg>
-          </Link>
+          <TourBookingTrigger
+            dict={dict.tourBooking}
+            lang={currentLang}
+            slug={tour.slug}
+            tourTitle={tour.title[currentLang]}
+            price={tour.price}
+            buttonLabel={dict.tourCard.viewItinerary}
+          />
         </div>
       </div>
     </article>

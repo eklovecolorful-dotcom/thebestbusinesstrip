@@ -8,6 +8,7 @@ const PARTY_SIZE_LABELS: Record<string, string> = {
   solo: "單獨旅行",
   couple: "兩人同行",
   family: "親子家庭",
+  unspecified: "未提供（精選行程直接預訂）",
 };
 
 const STATUS_LABELS: Record<string, string> = {
