@@ -106,7 +106,7 @@ export async function POST(request: Request) {
       },
     ],
     metadata: { orderId: order.id },
-    success_url: `${siteUrl}/${lang}?payment=success`,
+    success_url: `${siteUrl}/${lang}/success?session_id={CHECKOUT_SESSION_ID}`,
     cancel_url: `${siteUrl}/${lang}?payment=cancelled`,
   });
 
